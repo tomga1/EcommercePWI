@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer Ecommerce</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fonts.css">
+    
+
 </head>
 <body>
     
-    <div id="container">
+    <div class="header">
         <header>    
             <div id="imagen">
-                <img src="https://cdn2.hubspot.net/hubfs/53/ecommerce%20marketing.jpg" alt="Logo de la empresa">
+                <img class="Headerimg" src="https://cdn2.hubspot.net/hubfs/53/ecommerce%20marketing.jpg" alt="Logo de la empresa" title="Logo de la empresa">
             </div>
             <nav id="nav"> 
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Carrito</a></li>
+                    <li><a href="#" title="Inicio">Inicio</a></li>
+                    <li><a href="#" title="Productos">Productos</a></li>
+                    <li><a href="#" title="Contacto">Contacto</a></li>
+                    <li><a href="#" title="Carrito">Carrito</a></li>
                 </ul>
             </nav>
         </header>
     </div>
 
-    <div id="titulo">
+    <div class="titulo">
         <h1> Mi primer Ecommerce </h1>
         <p> 
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro cupiditate error, illo totam hic corporis? Quam ipsum, cupiditate nam doloremque at esse dicta blanditiis dolorum eos, adipisci rem aspernatur totam!
@@ -46,26 +49,35 @@
         <div class="caja c4">
             Caja 4
         </div>
-      
+    
     </section>
 
     <aside> 
         <h2>Barra lateral</h2>
         <form>
             <input type="text">
-            <input type="submit" value="Buscar"/>
+            <input type="submit" value="Buscar" title="Buscar"/>
         </form>
     </aside>
     
     <div class="clearfix"></div>
 
+    
+    <form action="">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="apellido" placeholder="Apellido">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text">
+    </form>
+    
 
-    <footer>   
+
+    <footer class="footer">   
         <h3>    
-            Footer ! 
+            Todos los derechos reservados 
         </h3> 
-        <p> Todos los derechos reservados</p>
     </footer>
     <script src="index.js"></script>
+
 </body>
 </html>
