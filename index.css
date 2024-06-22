@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: #B5C18E;
+    /* background-color: #B5C18E; */
+    background: linear-gradient(#8D9E6A, #c0d497);
     padding: 0px;
     margin: 0 auto;
     font-family: "Montserrat";
@@ -15,13 +16,17 @@ body{
 }
 
 .header{
-    background-color: #EADBC8;
+    /* background-color: #EADBC8; */
+    background: linear-gradient(#e3c39a,#d8c7b0);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     height: 120px;
+    width: auto;
     margin: auto;
+    box-shadow: 0 0 30px 0 #0007;
+
 }
 .nav{
     text-align:center;
@@ -122,6 +127,8 @@ border: 1px solid;
     align-items: flex-start;
     width: 80%;
     margin: 2% auto;
+    box-shadow: 0 0 30px 0 #0007;
+
 }
 
 
@@ -139,10 +146,13 @@ aside{
     border-radius: 20px;
     margin: 10% auto;
     max-width: 400px;
+    box-shadow: 0 0 30px 0 #0007;
+
 }
 
 #contacto{
     text-align: center;
+    letter-spacing: 5px;
 }
 
 form{
@@ -162,11 +172,22 @@ form textarea{
     text-align: center;
 }
 
-.footer{
-    background-color: #EADBC8;
+form button {
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin: auto;
+    width: 30%;
+    border-radius: 20px;
+}
 
+.footer{
+    background: linear-gradient(#e3c39a,#d8c7b0);
+    border: 1px solid black;
     text-align: center;
     line-height: 50px;
     padding: 10px;
+    box-shadow: 0 0 30px 0 #0007;
+
 }
 
